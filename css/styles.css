@@ -133,6 +133,7 @@ body {
 .nav-link:hover,
 .nav-link:focus {
   color: var(--accent-color);
+  outline: 0;
 }
 
 .contacts-list {
@@ -162,6 +163,7 @@ body {
 .contacts-link:hover,
 .contacts-link:focus {
   color: var(--accent-color);
+  outline: 0;
 }
 
 .icon-contacts {
@@ -221,10 +223,11 @@ body {
   padding: 10px 32px;
 }
 
-.button.primary:hover,
-.button.primary:focus {
-  color: var(--title-text-color);
-  background-color: var(--primary-white-color);
+.button-primary:hover,
+.button-primary:focus {
+  color: var(--primary-text-color);
+  background-color: var(--second-background);
+  outline: 0;
 }
 
 /* -------------------ОСОБЕНОСТИ ---------------*/
@@ -294,7 +297,8 @@ body {
 
 .teem-item {
   background: var(--primary-white-color);
-  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 
+    0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
   margin-left: 30px;
@@ -352,6 +356,7 @@ body {
 .social-link:hover,
 .social-link:focus {
   background-color: var(--accent-color);
+  outline: 0;
 }
 
 .social-link:hover .social-icon,
@@ -360,8 +365,6 @@ body {
 }
 
 .social-icon {
-  width: 20px;
-  height: 20px;
   fill: var(--icon);
 }
 
@@ -392,6 +395,7 @@ body {
 .client-link:hover {
   fill: var(--accent-color);
   border-color: var(--accent-color);
+  outline: 0;
 }
 
 /* ----------------PORTFOLIO-----------------*/
@@ -426,6 +430,7 @@ body {
   background-color: var(--accent-color);
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
     0px 2px 2px rgba(0, 0, 0, 0.12);
+  outline: 0;
 }
 
 .port-list {
@@ -441,11 +446,11 @@ body {
   flex-basis: calc(100% / 3 - 30px);
 }
 
-.port-item:hover,
-.port-item:focus {
-  border: 1px solid #eeeeee;
-  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
-    1px 4px 6px rgba(0, 0, 0, 0.16);
+.port-item:hover {
+  border: 1px solid #EEEEEE;
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 
+    0px 4px 4px rgba(0, 0, 0, 0.06),
+    0px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
 .border-item {
@@ -517,6 +522,7 @@ body {
 .map-link:hover,
 .map-link:focus {
   color: var(--accent-color);
+  outline: 0;
 }
 
 .strong {
@@ -556,9 +562,6 @@ body {
 .footer-social-link:hover,
 .footer-social-link:focus {
   background-color: var(--accent-color);
+  outline: 0;
 }
 
-.footer-social-icon {
-  width: 20px;
-  height: 20px;
-}
